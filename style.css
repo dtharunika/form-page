@@ -1,0 +1,46 @@
+section{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    margin: 50px;
+    margin-right: 500px;
+    border: 2px solid black;
+    font-size: 25px;
+}
+#name{
+    background-color:white;
+    color: black;
+    margin-bottom: 15px;
+}
+input{
+    width: 800px;
+    padding: 8px;
+    font-size: 16px;
+}
+#email{
+    background-color: white;
+    color: black;
+    margin-bottom: 15px;
+}
+#mobile ,#education,#year{
+    background-color:white;
+    color: black;
+    margin-bottom: 15px;
+}
+input[type="radio"]{
+    margin:8px;
+}
+button{
+    margin: 50px;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+}
+*{
+    box-shadow: 10px;
+}
+@media(max-width:600px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
